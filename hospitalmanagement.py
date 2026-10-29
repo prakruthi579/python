@@ -140,7 +140,7 @@ class hospital:
                 
                 break
         if not found:
-            print("appointment not found")
+            print("appointments not found in the feature branch")
 
     def display_appointments(self):
         for appoin in self.appointments:
