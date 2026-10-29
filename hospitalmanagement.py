@@ -88,7 +88,7 @@ class hospital:
                 break
 
         if doctor_found==False:
-            print("docor not found")
+            print("doctor not found")
             return
         for patient in self.patients_list:
             if patient.patient_id==patientid:
@@ -147,18 +147,19 @@ class hospital:
             print(f"appointment Id:{appoin.appointment_id}")
             print(f"{appoin.doctor.doctor_name}\n{appoin.patient.patient_name}\n{appoin.date}\n{appoin.time}")
 h=hospital("GOVT","mandya")
-d=Doctor(1,"chandan","child_specialist",[10,11,12,1])
+d=Doctor(1,"chandana","child_specialist",[10,11,12,1])
 h.add_doctor(d)
-p=patient(1,"darshan","infection")
+p=patient(1,"priya","infection")
 h.add_patient(p)
 h.find_doctor_by_specialization("child_specialist")
 h.check_doctors_availability(d)
 h.book_appointment()
-p=patient(2,"narendra","infection")
+p=patient(2,"suresh","infection")
 h.add_patient(p)
 h.find_doctor_by_specialization("child_specialist")
 h.check_doctors_availability(d)
 h.book_appointment()
+print("appointments")
 
 
 
