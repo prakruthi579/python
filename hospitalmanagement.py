@@ -140,7 +140,7 @@ class hospital:
                 
                 break
         if not found:
-            print("appointment not found")
+            print("appointment is not found")
 
     def display_appointments(self):
         for appoin in self.appointments:
