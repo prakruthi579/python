@@ -160,6 +160,7 @@ h.find_doctor_by_specialization("child_specialist")
 h.check_doctors_availability(d)
 h.book_appointment()
 print("appointments")
+print("checked all the features")
 
 
 
