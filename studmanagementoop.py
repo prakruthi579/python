@@ -180,5 +180,6 @@ manager.update_marks(103,"python",90)
 empty_manager.update_marks(105,"python",90)
 manager.update_marks(104,"java",70)
 manager.update_marks(102,"ec",80)
+print("all features working good")
 
 
